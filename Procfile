@@ -1,1 +1,1 @@
-web: gunicorn mon_projet.wsgi
+web: bash start.sh
