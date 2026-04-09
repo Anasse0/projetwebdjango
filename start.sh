@@ -1,3 +1,4 @@
+#!/bin/bash
 python manage.py migrate --noinput
 if [ "$DJANGO_SUPERUSER_USERNAME"]; then 
     python manage.py create superuser \
