@@ -1,1 +1,1 @@
-web: gunicorn ton_projet.wsgi
+web: gunicorn projetwebreact.wsgi
