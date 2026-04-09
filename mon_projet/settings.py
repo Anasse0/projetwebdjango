@@ -164,3 +164,9 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # CORS
 CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', default='').split(',')
+
+
+CSRF_TRUSTED_ORIGIN = [
+    "https://web-production-b9ba8.up.railway.app",
+    "https://*.railway.app"
+]
