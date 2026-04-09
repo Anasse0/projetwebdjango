@@ -26,10 +26,10 @@ class Migration(migrations.Migration):
             model_name='event',
             name='start_date',
         ),
-        migrations.AddField(
+       migrations.AddField(
             model_name='event',
             name='date',
-            field=models.DateTimeField(default=0, verbose_name='Date'),
+            field=models.DateTimeField(default='2024-01-01 00:00:00', verbose_name='Date'),
             preserve_default=False,
         ),
         migrations.AddIndex(
